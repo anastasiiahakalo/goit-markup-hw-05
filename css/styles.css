@@ -535,7 +535,7 @@ align-items: baseline;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto", sans-serif;
   font-size: 16x;
   font-weight: 500;
   line-height: 1.5;
@@ -684,7 +684,7 @@ fill: #4d5ae5;
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -730,7 +730,10 @@ fill: #4d5ae5;
 .checkbox-input[type="checkbox"]:checked + .privacy-span{
   background-color: var(--background-color);
   border: none;
-  fill: var(--icon-color-var)
+}
+
+.checkbox-input[type="checkbox"]:checked + .privacy-span svg {
+  fill: var(--icon-color-var);
 }
 
 :root{
