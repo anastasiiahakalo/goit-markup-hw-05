@@ -670,7 +670,7 @@ align-items: baseline;
 
 }
 
-.input-icon:focus svg{
+.input-icon:focus-within .input-icon{
 fill: #4d5ae5;
 }
 
