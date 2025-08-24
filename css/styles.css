@@ -727,12 +727,12 @@ fill: #4d5ae5;
   --icon-color-var: #f4f4fd;
 }
 
-.checkbox-input[type="checkbox"]:checked + .privacy-span{
+.checkbox-input[type="checkbox"]:checked + .label-checkbox .privacy-span{
   background-color: var(--background-color);
   border: none;
 }
 
-.checkbox-input[type="checkbox"]:checked + .privacy-span svg {
+.checkbox-input[type="checkbox"]:checked + .label-checkbox .privacy-span svg {
   fill: var(--icon-color-var);
 }
 
