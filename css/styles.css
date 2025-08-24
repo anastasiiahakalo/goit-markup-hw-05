@@ -549,7 +549,9 @@ align-items: baseline;
 
 .button-icon{
   margin-left: 16px;
+  fill: #ffffff;
 }
+
           /* modal */
 
 .modal-container{
@@ -670,7 +672,7 @@ align-items: baseline;
 
 }
 
-.input-icon:focus-within .input-icon{
+.modal-input:focus + .modal-icon{
 fill: #4d5ae5;
 }
 
