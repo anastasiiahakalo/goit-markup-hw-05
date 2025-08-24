@@ -670,7 +670,7 @@ align-items: baseline;
 
 }
 
-.input-icon:focus{
+.input-icon:focus svg{
 fill: #4d5ae5;
 }
 
@@ -724,7 +724,7 @@ fill: #4d5ae5;
 
 :root{
   --background-color: #404bbf;
-  --icon-color-var: #f4f4fd;
+  --icon-color: #F4F4FD;
 }
 
 .checkbox-input[type="checkbox"]:checked + .label-checkbox .privacy-span{
@@ -733,7 +733,8 @@ fill: #4d5ae5;
 }
 
 .checkbox-input[type="checkbox"]:checked + .label-checkbox .privacy-span svg {
-  fill: var(--icon-color-var);
+  stroke: var(--icon-color);
+  fill: var(--icon-color);
 }
 
 :root{
