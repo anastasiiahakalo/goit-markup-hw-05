@@ -671,9 +671,7 @@ align-items: baseline;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
-
-.checkbox-input:checked + .label-checkbox .privacy-icon{
+.input-icon:focus{
 fill: #4d5ae5;
 }
 
@@ -735,7 +733,8 @@ fill: #4d5ae5;
   border: none;
 }
 
-.checkbox-input:checked + .label-checkbox .privacy-span svg {
+.checkbox-input:checked + .label-checkbox .privacy-span svg,
+.checkbox-input:checked + .label-checkbox .privacy-icon {
   fill: var(--icon-color);
 }
 
