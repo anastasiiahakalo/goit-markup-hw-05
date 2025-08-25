@@ -672,7 +672,8 @@ align-items: baseline;
 
 }
 
-.modal-input:focus + .modal-icon{
+.modal-input:hover .input-icon
+.modal-input:focus-within .input-icon{
 fill: #4d5ae5;
 }
 
@@ -734,8 +735,7 @@ fill: #4d5ae5;
   border: none;
 }
 
-.checkbox-input[type="checkbox"]:checked + .label-checkbox .privacy-span svg {
-  stroke: var(--icon-color);
+.checkbox-input:checked + .label-checkbox .privacy-span svg {
   fill: var(--icon-color);
 }
 
