@@ -673,7 +673,7 @@ align-items: baseline;
 }
 
 
-.modal-input:focus + svg{
+.checkbox-input:checked + .label-checkbox .privacy-icon{
 fill: #4d5ae5;
 }
 
