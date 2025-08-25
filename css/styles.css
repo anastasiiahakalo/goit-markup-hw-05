@@ -749,6 +749,8 @@ fill: #4d5ae5;
 
 .modal-send-button{
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -760,5 +762,5 @@ fill: #4d5ae5;
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
