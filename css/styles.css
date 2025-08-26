@@ -733,8 +733,7 @@ fill: #4d5ae5;
   border: none;
 }
 
-.checkbox-input:checked + .label-checkbox .privacy-span svg,
-.checkbox-input:checked + .label-checkbox .privacy-icon svg{
+.checkbox-input:checked + .privacy-span{
   fill: var(--icon-color);
 }
 
