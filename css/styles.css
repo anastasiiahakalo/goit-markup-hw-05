@@ -731,9 +731,6 @@ fill: #4d5ae5;
 .checkbox-input[type="checkbox"]:checked + .label-checkbox .privacy-span{
   background-color: var(--background-color);
   border: none;
-}
-
-.checkbox-input[type="checkbox"]:checked + .label-checkbox span{
   fill: var(--icon-color);
 }
 
